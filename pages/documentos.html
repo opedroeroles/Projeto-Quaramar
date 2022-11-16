@@ -11,9 +11,69 @@
         <title>Projeto Quaramar</title>
     </head>
 
+    <style>
+        *{
+            margin:0px;
+            border:0px;
+            padding:0px;
+        }
+
+        body{
+            background-color: #e8fffe;
+        }
+
+        .navigation{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+        }
+
+        ul{
+            margin:0px;
+            border:0px;
+            padding:10px;
+            background-color: #fdb13d;
+            list-style-type: none;
+        }
+
+        li{
+            float:left;
+            background-color: transparent;
+
+        }
+
+        li img{
+            height: 60px;
+            width: 120px;
+            background-color: transparent;
+        }
+
+        li a{
+            background-color: transparent;
+            color: #0c003b;
+            text-decoration: none;
+            font-size:35px
+        }
+
+        li a:hover{
+            text-decoration:underline;
+        }
+    </style>
+
     <body>
         <navbar>
-            menu
+            <ul class="navigation">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="pages/historico.html">Histórico</a></li>
+                <li><a href="pages/economia.html">Economia</a></li>
+                <li><a href="index.html">
+                    <img src="style/img/logoprincipal.png">
+                    </a></li>
+                <li><a href="pages/galeria.html">Galeria</a></li>
+                <li><a href="pages/documentos.html">Documentos</a></li>
+                <li><a href="pages/quem-somos.html">Quem Somos</a></li>
+            </ul>
         </navbar>
 
         <main>
