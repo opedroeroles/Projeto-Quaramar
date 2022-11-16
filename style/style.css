@@ -8,6 +8,7 @@ body{
     background-color: #e8fffe;
 }
 
+/* Style for navbar */
 .navigation{
   display:flex;
   align-items: center;
@@ -15,7 +16,7 @@ body{
   gap:30px;
 }
 
-ul{
+navbar ul{
   margin:0px;
   border:0px;
   padding:10px;
@@ -23,25 +24,25 @@ ul{
   list-style-type: none;
 }
 
-li{
+navbar li{
   float:left;
   background-color: transparent;
 
 }
 
-li img{
+navbar li img{
   height: 60px;
   width: 120px;
   background-color: transparent;
 }
 
-li a{
+navbar li a{
   background-color: transparent;
   color: #0c003b;
   text-decoration: none;
   font-size:35px
 }
 
-li a:hover{
+navbar li a:hover{
   text-decoration:underline;
 }
