@@ -44,8 +44,8 @@ header img{
     justify-content: center;
     align-items: center;
     margin-top:3vw;
-    padding:2vw;
-    gap:10%;
+    padding:1vw;
+    gap:6%;
     background-color: #0c003b;
 }
 
@@ -66,11 +66,21 @@ header img{
 
 .img2{
     max-height: 15vw;
+    max-width: 7.5vw;
+    object-fit: cover;
 }
 
 .button1{
     width: 35%;
     height: 20%;
+    background-color: #9ecdff;
+    color: #0c003b;
+    font-size:1.8vw;
+}
+
+.button2{
+    width: 10vw;
+    height: 4vw;
     background-color: #9ecdff;
     color: #0c003b;
     font-size:1.8vw;
@@ -126,20 +136,42 @@ header img{
             </section>
 
             <section class="section2">
-                <img class="img2" src="style/marco/gato.jpeg">
-                <img class="img2" src="style/gaia/artesanato_gaia2.jpeg">
-                <img class="img2" src="style/marco/passaro.jpeg">
-                <img class="img2" src="style/carlos/artesanato_carlos2.jpeg">
+                <a class="img2">
+                    <img class="img1" src="style/marco/gato.jpeg">
+                </a>
+                <a class="img2">
+                    <img class="img1" src="style/gaia/artesanato_gaia2.jpeg">
+                </a>
+                <a class="img2">
+                    <img class="img1" src="style/marco/passaro.jpeg">
+                </a>
+                <a class="img2">
+                    <img class="img1" src="style/carlos/artesanato_carlos2.jpeg">
+                </a>
                 <button class="button2" onclick="location.href='pages/galeria.html'">Saiba mais</button>
+                
             </section>
 
-            <section>
-                linha 4
+            <section class="section1">
+                <a class="c1">
+                    <h1 style="font-size: 4vw">Confira nosso acervo documental</h1>
+                    <p style="font-size: 2vw">Aqui você encontra a coletânea de documentos
+                        que utilizamos no site e fica por dentro das
+                        causas do movimento artesão.</p>
+                    <button class="button2" onclick="location.href='pages/documentos.html'">Saiba mais</button>
+                </a>
+                <a class="c1">
+                    <h1 style="font-size: 4vw">Sobre nós</h1>
+                    <p style="font-size: 2vw">Conheça nossa equipe e pelo o que lutamos.</p>
+                    <button class="button2" onclick="location.href='pages/quem-somos.html'">Saiba mais</button>
+                </a>
             </section>
         </main>
 
         <footer>
-            rodapé
+            <p><b>Endereço: </b>Av. Bahia, 1739 - Indaiá, Caraguatatuba - SP, 11665-071</p>
+            <p><b>Telefone: </b>(12) 3885-2130</p>
+            <p><b>Email: </b>oquaramar@gmail.com</p>
         </footer>
     </body>
 </html>

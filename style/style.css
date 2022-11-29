@@ -46,3 +46,12 @@ navbar li a{
 navbar li a:hover{
   text-decoration:underline;
 }
+
+footer{
+  display:flex;
+  flex-direction: column;
+  padding:2vw;
+  background-color:#fdb13d;
+  font-size: 1.8vw;
+  margin-top:2vw;
+}
